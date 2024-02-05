@@ -1,9 +1,9 @@
 provider "aws" {
-  region = "us-west-1"  # ${{ parameters.bucketRegion }} 
+  region = ${{ parameters.bucketRegion }} 
 }
 
-resource "aws_s3_bucket" "microsegmentations3bucket" { #${{ parameters.name }}
-  bucket = "microsegmentations3" # { ${{ parameters.bucketName }}
+resource "aws_s3_bucket" "microsegmentations3bucket" #${{ parameters.name }}
+  bucket = ${{ values.bucketName }} # { #${{ parameters.bucketName }}
   
 }
 
