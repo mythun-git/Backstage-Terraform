@@ -1,5 +1,5 @@
 provider "aws" {
-  region = ${{ values.bucketRegion }} 
+  region = "${{ values.bucketRegion }}"
 }
 
 resource "aws_s3_bucket" "${{values.bucketName}}"
