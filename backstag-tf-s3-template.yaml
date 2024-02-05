@@ -85,7 +85,7 @@ spec:
       action: catalog:register
       input:
         repoContentsUrl: ${{ steps['publish'].output.repoContentsUrl }}
-        catalogInfoPath: 'https://github.com/mythun-git/software-templates/blob/main/scaffolder-templates/catalog-info.yaml'
+        catalogInfoPath: 'https://github.com/mythun-git/Backstage-Terraform/blob/master/content/catalog-info.yaml'
 
   # Outputs are displayed to the user after a successful execution of the template.
   output:
