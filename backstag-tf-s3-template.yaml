@@ -3,7 +3,7 @@ kind: Template
 metadata:
   name: terraform-template
   title: Terraform Tempalte for AWS S3
-  description: My Example discription here
+  description: Create an AWS S3 Bucket ...
 spec:
   owner: mythun-git
   type: service
